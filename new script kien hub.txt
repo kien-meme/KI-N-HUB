@@ -1,11 +1,11 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/kien-meme/KI-N-HUB/refs/heads/main/README.md')))()
 
 local Window = OrionLib:MakeWindow({Name = "kiên hub new", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
 	Name = "main",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 
 local Tab2 = Window:MakeTab({
